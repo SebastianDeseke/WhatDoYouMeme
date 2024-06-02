@@ -1,0 +1,20 @@
+Adding Classes and Structuring Your Project
+Create New Classes:
+
+Add new classes for different functionalities, such as data models, business logic, or utility functions.
+Organize into Folders:
+
+Create folders within your project to organize classes. For example, a Models folder for data models, a ViewModels folder for view models, and a Views folder for additional XAML files.
+ViewModel:
+
+Implement the MVVM (Model-View-ViewModel) pattern for better separation of concerns. Create view models to manage the data and logic of your views.
+
+Database setup,
+
+Charackters: Everyone from the discord
+
+Cards: this and jokes from our group
+
+Board: will have tiles with special charackters and some will have limitations
+
+Tiles: some are just playabled and some are limited and need special cards to be playable

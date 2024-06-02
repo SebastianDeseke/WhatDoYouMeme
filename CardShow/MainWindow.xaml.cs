@@ -24,7 +24,21 @@ namespace CardShow
         {
             InitializeComponent();
         }
+        private void Play_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Button clicked! You play now");
+        }
 
+        private void EditPack_Click (object sender, RoutedEventArgs e) {
 
+        }
+
+        private void Settings_Click (object sender, RoutedEventArgs e){
+
+        }
+
+        private void Exit_Click (object sender, RoutedEventArgs e){
+
+        }
     }
 }
