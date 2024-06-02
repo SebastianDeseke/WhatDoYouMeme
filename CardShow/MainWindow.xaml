@@ -7,7 +7,11 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-
+    <!-- This will be the main menu. There will be a play button, and edit pack button, a settings button ande a exit button-->
+        <Button Content="Play" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="75" Click="Play_Click"/>
+        <Button Content="Edit Pack" HorizontalAlignment="Left" Margin="10,40,0,0" VerticalAlignment="Top" Width="75" Click="EditPack_Click"/>
+        <Button Content="Settings" HorizontalAlignment="Left" Margin="10,70,0,0" VerticalAlignment="Top" Width="75" Click="Settings_Click"/>
+        <Button Content="Exit" HorizontalAlignment="Left" Margin="10,100,0,0" VerticalAlignment="Top" Width="75" Click="Exit_Click"/>
     </Grid>
 
 </Window>
