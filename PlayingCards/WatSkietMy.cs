@@ -1,14 +1,14 @@
 namespace WhatDoYouMeme.PlayingCards
-    public class FluffyRage : Cards
+    public class WatSkietMy : Cards
     {
-        public FluffyRage()
+        public WatSkitMy()
         {
-            CardName = "Fluffy Rage";
-            CardDescription = "Fluffy's rage. When played it debuffs the enemy. When played by fluffy, fluffy receives buff";
-            CardImagePath = "FluffyRage.png";
+            CardName = "Wat Skiet My";
+            CardDescription = "Wat Skiet My. When played it confuses the enemy and gives the debuffs";
+            CardImagePath = "WatSkietMy.png";
             CardCategory = "Enhancment";
-            CardAbility1 = "Attack +2";
+            CardAbility1 = "Enemy -1 move";
             CardAbility2 = "Defence -1";
-            CardSpecialAbility = "Status effects +2";
+            CardSpecialAbility = "?";
         }
     }

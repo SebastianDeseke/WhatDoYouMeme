@@ -1,13 +1,13 @@
 namespace WhatDoYouMeme.Model
 {
-    public class Board
+    public class Board implements Tile
     {
         private int BoardSize { get; set; }
         private string BoardName { get; set; }
         private string BoardBackgroundImagePath { get; set; }
         private Tile[] tiles { get; set; }
 
-//only the boardname is required, the rest will be found in the database
+        //only the boardname is required, the rest will be found in the database
         public Board(string boardName)
         {
             BoardSize = boardSize;
